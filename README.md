@@ -1,2 +1,4 @@
 # get_osmometer_data_from_usb
-its in the name
+It's in the name
+
+This is just code to listen to our FreezePoint osmometer and log the received data to a file.
