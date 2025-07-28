@@ -1,0 +1,7 @@
+DateTime==5.5
+logging==0.4.9.6
+petsc4py==3.23.4
+pyserial==3.5
+pytz==2025.2
+setuptools==80.9.0
+zope.interface==7.2
