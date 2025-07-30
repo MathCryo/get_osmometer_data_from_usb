@@ -8,6 +8,7 @@
 # print(s)
 # def collect_data(exeriment_duration):
 #
+import find_correct_port
 import asyncio
 import serial_asyncio
 import time
@@ -45,4 +46,7 @@ async def main():
         await writer.wait_closed()
 
 if __name__ == "__main__":
+    
+    hwids=["",""] #hardware ids for both osmometers
+    #find_hardware(hwids)
     asyncio.run(main())
